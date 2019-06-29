@@ -33,7 +33,6 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = PN_SDR_ToolBox1.0.0
-DISTDIR = /home/aura/Documents/QTProj/build-PN_SDR_ToolBox-Desktop-Debug/.tmp/PN_SDR_ToolBox1.0.0
 LINK          = g++
 LFLAGS        = -m64
 LIBS          = $(SUBLIBS) -L/usr/X11R6/lib64 -lQt5PrintSupport -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread 
